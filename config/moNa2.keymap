@@ -67,7 +67,7 @@
 &trans    &trans        &trans        &trans     &trans  &trans    &trans            &trans                                                                           &kp F12
             >;
 
-            sensor-bindings = <&scroll_up_down>;
+            sensor-bindings = <&inc_dec_kp C_BRIGHTNESS_DEC C_BRIGHTNESS_INC>;
         };
 
         layer_2 {
@@ -78,7 +78,7 @@
 &trans                      &trans            &trans                &trans             &trans        &trans                     &trans          &trans                                                &kp SLASH
             >;
 
-            sensor-bindings = <&inc_dec_kp C_BRIGHTNESS_INC C_BRIGHTNESS_DEC>;
+            sensor-bindings = <&inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP>;
         };
 
         layer_3 {
@@ -89,7 +89,7 @@
 &bt BT_SEL 2    &trans                  &trans                  &trans                   &trans   &trans    &kp LANGUAGE_2  &kp LANGUAGE_1                                            &kp LANG_ZENKAKUHANKAKU
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
+            sensor-bindings = <&inc_dec_kp C_AC_ZOOM_OUT C_AC_ZOOM_IN>;
         };
 
         layer_4 {
